@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function(){
   const rockBtn = document.getElementById("rockBtn");
   const paperBtn = document.getElementById("paperBtn");
   const scissorsBtn = document.getElementById("scissorsBtn");
-
+  
+//These console.log commands were here just to check if my buttons worked correctly. I forget them in the code and was too lazy to remove then afterwards. 
   rockBtn.addEventListener('click', function() {
     playerChoice = 'rock';
     computerChoice = generated();
