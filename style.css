@@ -1,42 +1,48 @@
-.header {
+#header {
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: mistyrose;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-background-color: midnightblue; 
+    align-items: center;
+    background-color: midnightblue;
 }
-
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
 img {
     height: 250px;
     width: 250px;
+    border-radius: 50%;
 }
-
 .buttons {
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 50px;
- gap: 150px;
- margin-top: 70px;
-}
-.scoresheet {
     display: flex;
     justify-content: center;
-    gap: 300px;
+    align-items: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+button {
+    border-radius: 50%;
+}
+button:hover {
+    transform: scale(1.2);
+}
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
 }
-.playerScore, .computerScore {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+#playerScore, #computerScore {
     background-color: midnightblue;
     color: white;
-    height: 50px;
-    width: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     padding: 10px;
+    height: 30px;
+    width: 90px;
     border-radius: 20px;
-
+    margin: 50px;
 }
